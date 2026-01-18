@@ -38,7 +38,7 @@ curl_close($ch);
         <h2><?= $data["title"] ?></h2>
         <h3>Fecha de estreno: <?= $data["release_date"] ?></h3>
         <p><?= $data["overview"] ?></p>
-        <p> cual es la siguiente pelicula de Marvel<?= $data["following_production"]["title"] ?></p>
+        <p> La siguiente pelicula de Marvel: <?= $data["following_production"]["title"] ?></p>
     </section>
     
 </main>
